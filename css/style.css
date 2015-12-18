@@ -46,12 +46,7 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+     font-family: 'Open Sans', sans-serif;
 }
 
 
@@ -59,19 +54,17 @@ body {
 /* LAYOUT
 /*******************************************/
 
-/* Center the container */
-#container {
-  width: 100%;
-  margin: auto;
-  height: 500px;
 
+
+#header {
+  padding-top: 32px;
+  height: 700px;
+  background: url("../images/header_bg.jpg")  no-repeat center center fixed;
+  background-size: cover;
+  color: white;
 }
 
-header {
-
-}
-
-footer {
+#footer {
 
 }
 
@@ -79,6 +72,65 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
+#cta_button_top {
+  background-color: #f9e42e;
+  font-weight: 700;
+  font-size: 28px;
+  color: #033048;
+  border-radius: 5px;
+  display: block;
+  width: 300px;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+#header h1 {
+  margin-left:150px;
+  font-weight: 800;
+  font-size: 48px;
 
 
+}
+
+#header h2 {
+  margin-left: 325px;
+  font-weight: 600;
+  font-size: 48px
+}
+
+#benefits {
+  background: white;
+  color: #606161;
+  font-weight: 100;
+  font-size: 24px;
+  padding: 50px 200px;
+}
+
+#amanda_quote {
+  padding: 60px 360px;
+  background: url("../images/testimonial_bg.jpg")  no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 36px;
+}
+
+#amanda_quote blockquote {
+  font-style: italic;
+}
+
+#amanda_quote blockquote span{
+  display: block;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+
+#footer {
+  background: #121212;
+  
+}
 
